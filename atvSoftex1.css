@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0
+}
+
+nav {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #83CBDE;
+    padding: 1px 20px;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 20px;
+    list-style: none;
+    text-decoration:underline;
+}
+
+.nav-items a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.barra-de-pesquisa{
+    display: flex;
+    justify-content: center; 
+    height: 25px;
+    margin-top: 2%;
+
+}
+
+.barra-de-pesquisa button{
+    color: black;
+    background-color: #e2f7fd;
+    border-radius: 3px;
+    font-weight:bold;
+    margin-left: 5px;
+}
+.container{
+    max-width: 1200px; 
+    margin-top: 1% !important;
+    margin: 150px;
+    padding: 20px; 
+    background-color:#83CBDE;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-left: 15%;
+}
+
+#titulo{
+    text-align: center;
+    background-color: #BDDE83;
+    border-radius: 10px;
+}
+main{
+    display:flex;
+}
+
+.section1{
+    padding:10px;
+    width: 45%;
+    background-color: #BDDE83;
+    text-align: justify;
+    border-radius: 20px;
+}
+.section2{
+    padding: 10px;
+    width: 45%;
+    background-color: #BDDE83;
+    margin-left: 80px;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+form label {
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
+}
+form input{
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width:30%;
+}
+
+textarea {
+    width: 90%; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 14px; 
+}
+.botaoForm{
+    color: black;
+    background-color: #e2f7fd;
+    border-radius: 3px;
+    font-weight: bold;
+    display: block; 
+    margin: 10px auto; 
+}
